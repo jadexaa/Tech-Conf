@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tech Connect</title>
+    <meta name="description" content="Jade Xa | Start File with SCSS">
+    <meta name="author" content="Jade Xa">
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="css/styles.min.css" rel="stylesheet">
+
+    
+<!-- fav icon stuff -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+
+
+</head>
+<body>
+    
+<div id="headerWrapper">
+    <header>
+        <figure class="logo">
+            <img src="images/logo-1x.png" alt="logo" width="100" height="100"
+            srcset="images/logo-3x.png 1x, images/logo-3x.png 2x, images/logo-3x.png 3x">
+        </figure>
+        <div id="titleWrapper">
+            <h1>Tech Connect</h1>
+            <p>Empowering Innovation, Shaping the Future</p>
+        </div>
+    </header>
+</div>
+
+<div id="navWrapper">
+    <nav >
+        <button id="hamburgerButton" value="">
+            <span class="line top"></span>
+            <span class="line middle"></span>
+            <span class="line bottom"></span>
+        </button>
+        <ul id="primaryNav">
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="active"><a href="#">Speakers</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+</nav>
+</div>
+
+<div id="mainWrapper">
+    <main>      
+        <div class="hero">
+            <video autoplay muted playsinline loop width="800" height="250">
+                <source src="media/hero-video-hb.webm" type="video/webm">
+                <source src="media/hero-video-hb.mp4" type="video/mp4">
+            </video>
+            <div>
+                <h3>Tech Connect Conference</h3>
+                <p>Salt Lake City, UT</p>
+            </div>
+        </div>
+
+        <h1>Speakers</h1>
+
+        <div id="cardWrapper">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/Elon.jpg" alt="Elon" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Elon Musk</h1>
+                        <p>Innovator Driving the Future of Technology and Space Exploration</p>
+                        <p>CEO of Tesla and SpaceX, revolutionized electric vehicles, renewable energy, and space exploration, driving innovation across industries.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/Jeff.jpg" alt="Jeff" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Jeff Bezos</h1>
+                    <p>Visionary Entrepreneur and Pioneer of E-Commerce</p>
+                    <p>Founder of Amazon, transformed global commerce with online shopping and redefined logistics. He also founded Blue Origin, advancing private space exploration.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/Mark.jpg" alt="Mark" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Mark Zuckerberg</h1>
+                    <p>Architect of Connection and Innovation</p>
+                    <p>Co-founder and CEO of Meta, revolutionized global communication with Facebook and leads innovation in VR, AR, and the metaverse.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<div id="footerWrapper">
+    <footer>
+        <p>&copy; <span id="year">x</span> &bull; Jade Xa</p>
+    </footer>
+</div>
+<script src="js/scripts.js"></script>
+</body>
+</html>
